@@ -15,9 +15,9 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.zhoumushui.zygoteelastichsv.view.BezelImageView;
-import com.zhoumushui.zygoteelastichsv.view.BooheeScrollView;
-import com.zhoumushui.zygoteelastichsv.view.BuildLayerLinearLayout;
+import com.zzt.library.BezelImageView;
+import com.zzt.library.BooheeScrollView;
+import com.zzt.library.BuildLayerLinearLayout;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -171,7 +171,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.normal:
                 booheeScrollView.setAnimType(BooheeScrollView.NORMAL_ANIM);
                 break;
-
             case R.id.rebound:
                 booheeScrollView.setAnimType(BooheeScrollView.REBOUND_ANIM);
                 break;
