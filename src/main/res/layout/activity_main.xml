@@ -14,19 +14,19 @@
         android:textColor="@android:color/white"
         android:textSize="18sp" />
 
-    <com.zzt.library.BooheeScrollView
+    <com.zhoumushui.zygoteelastichsv.view.BooheeScrollView
         android:id="@+id/horizon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:overScrollMode="never">
 
-        <com.zzt.library.BuildLayerLinearLayout
+        <com.zhoumushui.zygoteelastichsv.view.BuildLayerLinearLayout
             android:id="@+id/linear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"></com.zzt.library.BuildLayerLinearLayout>
-    </com.zzt.library.BooheeScrollView>
+            android:orientation="horizontal"></com.zhoumushui.zygoteelastichsv.view.BuildLayerLinearLayout>
+    </com.zhoumushui.zygoteelastichsv.view.BooheeScrollView>
 
 
 </LinearLayout>
